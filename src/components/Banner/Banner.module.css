@@ -1,0 +1,33 @@
+.banner {
+    background-color: #0012338F;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    width: 100%;
+    height: 90%;
+    box-shadow: inset 0 0 11px 5px rgba(34, 113, 209, 1);
+    background-image: url('../../assets/player.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    z-index: 1;
+}

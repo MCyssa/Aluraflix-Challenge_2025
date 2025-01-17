@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background: var(--azul-escuro);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 11px 5px rgba(34, 113, 209, 1);
+    z-index: 3;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 70px;
+        padding: 1rem;
+    }
+
+    .header img {
+        width: 100px;
+    }
+}
